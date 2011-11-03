@@ -1,3 +1,9 @@
+# revision 20745
+# category Package
+# catalog-ctan /macros/latex/contrib/curve
+# catalog-date 2010-12-14 18:30:55 +0100
+# catalog-license lppl
+# catalog-version 1.16
 Name:		texlive-curve
 Version:	1.16
 Release:	1
@@ -61,6 +67,7 @@ support for use with AUC-TeX.
 #- source
 %doc %{_texmfdistdir}/source/latex/curve/curve.dtx
 %doc %{_texmfdistdir}/source/latex/curve/curve.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -71,3 +78,5 @@ support for use with AUC-TeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
