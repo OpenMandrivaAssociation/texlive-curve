@@ -67,3 +67,17 @@ support for use with AUC-TeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.16-2
++ Revision: 750751
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.16-1
++ Revision: 718188
+- texlive-curve
+- texlive-curve
+- texlive-curve
+- texlive-curve
+
