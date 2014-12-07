@@ -6,7 +6,7 @@
 # catalog-version 1.16
 Name:		texlive-curve
 Version:	1.16
-Release:	8
+Release:	9
 Summary:	A class for making curriculum vitae
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/curve
