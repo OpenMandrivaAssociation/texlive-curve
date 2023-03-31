@@ -1,6 +1,6 @@
 Name:		texlive-curve
 Version:	20745
-Release:	1
+Release:	2
 Summary:	A class for making curriculum vitae
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/curve
