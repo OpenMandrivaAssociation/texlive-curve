@@ -3,7 +3,7 @@ Version:	20745
 Release:	2
 Summary:	A class for making curriculum vitae
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/curve
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/curve
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/curve.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/curve.doc.r%{version}.tar.xz
